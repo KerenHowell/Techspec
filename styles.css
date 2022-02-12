@@ -1,0 +1,113 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    padding:0 1rem;
+    display: flex; 
+   
+}
+
+header{
+    text-decoration: underline;
+    font-size: 1.8rem;
+
+}
+h3{font-size: 1.25rem;}
+ 
+#main-doc{
+   
+    } 
+
+a{
+    text-decoration:none;
+    
+}
+
+    header{
+        font-size: 2em;}
+
+    .start-box{
+        border:1px solid black;}
+        .start-box1{
+            border:1px solid black;
+        text-align: center;}
+    .padded{
+        padding:1rem;
+        border:1px solid black;
+        text-align:center;
+    }
+    .boxwidth     {
+        padding:1rem;
+        border:1px solid black;
+        text-align:center;
+        width:50%;
+    }
+    .boxmargin{
+        background-color: white;
+        padding:1rem;
+        border:1px solid black;
+        text-align:center;
+        width:50%;
+                margin:0 auto;}
+
+        .centremargin{
+            background-color: white;
+            padding:1rem;
+            border:1px solid black;
+            text-align:center;
+            width:50%;
+            margin:1rem 2rem 3rem 4rem;
+        }
+    
+ #navbar {
+     position:fixed;
+    display: flex;
+    flex-direction: column;   
+ }
+ .navlist{
+     font-size: 1.2rem;
+     padding: 10px 5px;
+    /* border:1px solid lightslategray; */
+    margin-right: 1rem;
+   margin-top:5px;  
+ }
+ .nav-item{
+     list-style-type:  none;
+   /* border: 1px solid lightslategrey;  */
+ padding:0.5rem ;
+margin:0 1rem 0 0;
+}
+.nav-link{
+    color: darkslategrey;
+    font-size: 1.2rem;
+    padding-top: 1rem;
+   border-bottom: 1px solid lightslategrey;
+}
+
+ .space-around{
+     background-color: lightgray;
+    border:1px solid  lightslategray;}
+
+
+    @media (max-width:1400px){
+
+        .nav-item{
+            width: 70%;
+        font-size: 1rem;
+    border:none;}
+
+        .nav-link{font-size: 1rem;}
+
+        .navlist{ 
+             width: 70%;
+            font-size: 1rem;
+        border:none;} 
+
+            .code{ padding:0.5rem;
+            font-size:0.8rem;}
+
+    }
+    @media  (max-width:1080px){
+        .nav-link{
+            display: none;
+        }  
+        .navlist{ display:none;}      
+    }
